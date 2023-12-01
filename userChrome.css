@@ -1,0 +1,56 @@
+/* Hide stuff we don't want */
+#context-navigation,
+#context-sep-navigation,
+/*#star-button,
+#star-button-box,*/
+#context-savelinktopocket,
+#context-sendimage,
+#context-sendlinktodevice,
+#context-openlinkprivate,
+#context-openlink,
+#context-openlinkinusercontext-menu {
+    display: none !important;
+}
+/* Hide Unified Extensions button in toolbar */
+#unified-extensions-button {
+  width: 0.1px;
+  padding-inline: 0 !important
+}
+#unified-extensions-button > .toolbarbutton-icon {
+  width: 0 !important;
+}
+/* Square tabs */
+.tab-background {
+    border-radius: 0px 0px !important;
+    margin-bottom: 0px !important;
+}
+#tabs-newtab-button:hover {
+    --tab-border-radius: 0px !important;
+}
+/* Remove color accent on tabs */
+.titlebar-color{
+    color: -moz-accent-color-foreground;
+    background-color: -moz-accent-color;
+}
+.tabbrowser-tab:not([selected=true]):not([multiselected=true]) .tab-background{
+    background-color: color-mix(in srgb, currentColor 5%, transparent);
+}
+.tab-background[selected]:not([multiselected="true"]):-moz-lwtheme {
+        outline: 0px !important;
+       outline-offset: -1px;
+}
+/* Adjust tab height and paddings */
+:root{
+    --tab-min-height: 34px !important;
+    --tabs-navbar-shadow-size: 0 !important;
+}
+.tabbrowser-tab {
+    padding: 0px 2px 0px 0px !important;
+}
+.tab-secondary-label {
+      margin: -.3em 0 -0.1em !important;
+}
+/* Adjust rounded corners of menus and panels */
+:is(menupopup, panel) {
+    --panel-border-radius: 2px !important;
+}
