@@ -6,7 +6,7 @@ Theme to match the black Windows 10 theme, for use with **Firefox 89.0+** (Proto
 
 ## Installation
 - In about:config set **toolkit.legacyUserProfileCustomizations.stylesheets** to TRUE
-- Download the theme from [Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/windows-10-black/).
+- Download the theme from [Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/windows-10-classic-monochrome/).
 - Copy userChrome.css into your Firefox **chrome** profile folder.
 - Configure the userChrome.css to your liking.
 
