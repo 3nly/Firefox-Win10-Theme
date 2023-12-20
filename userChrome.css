@@ -8,7 +8,8 @@
 #context-sendlinktodevice,
 #context-openlinkprivate,
 #context-openlink,
-#context-openlinkinusercontext-menu {
+#context-openlinkinusercontext-menu,
+.titlebar-spacer[type="pre-tabs"] {
     display: none !important;
 }
 /* Hide Unified Extensions button in toolbar */
