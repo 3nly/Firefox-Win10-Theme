@@ -59,3 +59,11 @@
 :root[tabsintitlebar] #titlebar:-moz-window-inactive {
 opacity: 1 !important;
 }
+/* Remove selected tab outline */
+:root[lwtheme] .tab-background[selected]:not([multiselected]) {
+    outline: 0px !important;
+}
+/* Remove nav-bar border */
+#nav-bar {
+  border-top: 0px !important;
+}
