@@ -9,7 +9,9 @@
 #context-openlinkprivate,
 #context-openlink,
 #context-openlinkinusercontext-menu,
-.titlebar-spacer[type="pre-tabs"] {
+.titlebar-spacer[type="pre-tabs"],
+#alltabs-button,
+#tab-preview-panel {
     display: none !important;
 }
 /* Hide Unified Extensions button in toolbar */
