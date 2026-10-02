@@ -107,7 +107,6 @@ richlistitem.autocomplete-richlistitem {
 
 /* Hover Tooltip */
 tooltip {
-    -moz-appearance: none !important;
     background: #fcfcfc !important;
     color: #505050;
     border-color: #606060;
