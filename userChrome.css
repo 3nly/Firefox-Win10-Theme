@@ -104,3 +104,12 @@ richlistitem.autocomplete-richlistitem {
     color: inherit !important;
     border-radius: 0 !important;
 }
+
+/* Hover Tooltip */
+tooltip {
+    -moz-appearance: none !important;
+    background: #fcfcfc !important;
+    color: #505050;
+    border-color: #606060;
+    border-radius: 1px;
+}
